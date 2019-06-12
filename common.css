@@ -1,0 +1,108 @@
+@charset "utf-8";
+@font-face{
+    font-family: font_regular;
+    src: url(../font/SanFranciscoDisplay-Regular.eot),
+        url(../font/SanFranciscoDisplay-Regular.otf),
+        url(../font/SanFranciscoDisplay-Regular.ttf),
+        url(../font/SanFranciscoDisplay-Regular.woff);
+}
+/* CSS Document */
+body{
+    font-family: font_regular;
+    font-size: 12pt;
+}
+.navi{
+    background-color: rgba(35,48,64,1);
+    height: 80px;
+}
+.navi ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;    
+}
+.navi ul li{
+    display: block;
+    float: left;
+}
+.navi ul li a{
+    font-family: font_regular;
+    font-size: 14pt;
+    float: left;
+    text-decoration: none;
+    color: rgba(248,153,35,1);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    transition: all ease 0.5s;
+}
+.navi ul li a:hover{
+    float: left;
+    text-decoration: none;
+    background-color: rgba(248,153,35,1);
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 13px;
+    transition: all ease 0.5s;
+}
+/*Logo*/
+.logo_navi{
+    height: 50px;
+    margin-top: 10%;
+}
+/*Banner*/
+.banner1{
+    background-image: url(../img/RollingHills.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin-bottom: 10px;
+}
+.text_banner p{
+    text-align: center;
+    color: rgba(248,153,35,0.7);
+    font-size: 72pt;
+    font-weight: bold;
+    margin-top:5%;
+    transition: all ease 0.3s;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+.text_banner p:hover{
+    text-align: center;
+    color: rgba(248,153,35,1);
+    font-size: 73pt;
+    font-weight: bold;
+    margin-top:5%;
+    transition-duration: all ease 0.3s;
+    text-shadow: 2px 2px rgba(0,0,0,0.7);
+}
+/*Text*/
+.text-title{
+    font-size: 24pt;
+    font-weight: bold;
+    color: rgba(35,48,64,1);
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
